@@ -1,0 +1,2 @@
+This is an invalid file type for testing purposes.
+The application should reject .txt files and only accept PDF, DOC, DOCX, PNG, JPG files.

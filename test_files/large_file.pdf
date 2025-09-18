@@ -1,0 +1,5 @@
+This is a dummy large file for testing file size limits.
+The application should reject files larger than 10MB.
+This file is created to test the file size validation.
+In a real scenario, this would be a large PDF file exceeding 10MB.
+For testing purposes, we're using a text file with .pdf extension.
