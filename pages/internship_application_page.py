@@ -10,15 +10,15 @@ class InternshipApplicationPage:
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
     
-    # Locators - Update these based on actual form elements
-    FULL_NAME_FIELD = (By.NAME, "full_name")  # Update based on actual form
-    EMAIL_FIELD = (By.NAME, "email")  # Update based on actual form
-    PHONE_FIELD = (By.NAME, "phone")  # Update based on actual form
-    CV_UPLOAD = (By.NAME, "cv_file")  # Update based on actual form
-    APPLY_BUTTON = (By.XPATH, "//button[contains(text(), 'Apply')]")  # Update based on actual form
-    SUCCESS_MESSAGE = (By.CLASS_NAME, "success-message")  # Update based on actual form
-    ERROR_MESSAGE = (By.CLASS_NAME, "error-message")  # Update based on actual form
-    VALIDATION_MESSAGE = (By.CLASS_NAME, "validation-message")  # Update based on actual form
+    
+    FULL_NAME_FIELD = (By.NAME, "full_name") 
+    EMAIL_FIELD = (By.NAME, "email")  
+    PHONE_FIELD = (By.NAME, "phone")  
+    CV_UPLOAD = (By.NAME, "cv_file")  
+    APPLY_BUTTON = (By.XPATH, "//button[contains(text(), 'Apply')]")  
+    SUCCESS_MESSAGE = (By.CLASS_NAME, "success-message")  
+    ERROR_MESSAGE = (By.CLASS_NAME, "error-message")  
+    VALIDATION_MESSAGE = (By.CLASS_NAME, "validation-message")  
     
     def navigate_to_application_page(self):
         """Navigate to the internship application page"""
